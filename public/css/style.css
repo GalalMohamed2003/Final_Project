@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background: #333;
+}
+.navbar .container{
+  color: white !important;
+}
+.nav-link{
+    color: white !important;
+    font-size:20px;
+    transition: 1s;
+}
+.nav-link:hover{
+    color:black !important;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+.Home-Page{
+ background:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../img/pexels-sanni-sahil-2565919.jpg);
+ height: 100vh;
+ background-position: center;
+ background-size: cover;
+
+}
+.text-home-page{
+padding-top: 20%;
+color: white;
+}
+.text-home-page h1{
+font-weight: 700;
+}
+.text-home-page p{
+width: 50%;
+}
+.text-home-page button a{
+color: white;
+text-decoration: none;
+}
+.text-home-page button {
+font-size: 20px;
+padding: 5px 25px;
+background: transparent;
+transition: 0.9s;
+border: 2px solid #333;
+}
+.text-home-page button:hover{
+background: #333;
+border-radius: 10px;
+}
+
+.courses{
+    background:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../img/pexels-pixabay-207691.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.events-list{
+    padding-top: 10%;
+}
+tbody, td, tfoot, th, thead, tr {
+    background-color: #33333363 !important;
+    color: white !important;
+
+}
+
+.contact{
+    background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.3)),url(../img/contact-bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.text-contact{
+    padding-top: 20%;
+}
+.text-contact .text{
+    color: white;
+    text-align: center;
+}
+.text-contact .text h1{
+font-weight: 700;
+letter-spacing: 2px;
+}
+.text-contact p{
+   width: 50%;
+   text-align: center;
+   margin-left: 25%;
+   margin-right: auto;
+}
+footer{
+    background: #333;
+    color: white;
+    text-align: center;
+}
